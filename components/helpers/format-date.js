@@ -8,11 +8,11 @@ export default function (date) {
   const dateToDisplay = LocalDate.parse(date)
   return today.equals(dateToDisplay)
     ? labels.today
-    : moment(date).format('MMMM Do YYYY')
+    : moment(date).format('D [de] MMMM [de] YYYY')
 }
 
 export function formatDateForShortText(date) {
-  return moment(date.toString()).format('dddd, MMMM Do')
+  return moment(date.toString()).format('dddd, D [de] MMMM')
 }
 
 export function dateToTitle(dateString) {

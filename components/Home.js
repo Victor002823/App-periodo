@@ -41,7 +41,7 @@ const Home = ({ navigate, setDate }) => {
       style={styles.container}
       contentContainerStyle={styles.contentContainer}
     >
-      <AppText style={styles.title}>{moment().format("MMM Do YYYY")}</AppText>
+      <AppText style={styles.title}>{moment().format("D [de] MMM YYYY")}</AppText>
 
       {cycleDayNumber &&
         <View style={styles.line}>
