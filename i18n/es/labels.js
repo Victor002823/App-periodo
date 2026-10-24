@@ -3,121 +3,120 @@ const settingsTitles = labels.menuItems
 
 export const home = {
   unknown: '?',
-  phase: (n) => `${['1st', '2nd', '3rd'][n - 1]} cycle phase`,
+  phase: (n) => `${['1.ª', '2.ª', '3.ª'][n - 1]} fase del ciclo`,
 }
 
 export const chart = {
-  tutorial: 'You can swipe the chart to view more dates.',
+  tutorial: 'Desliza la gráfica para ver más fechas.',
 }
 
 export const shared = {
-  cancel: 'Cancel',
-  save: 'Save',
-  dataSaved: 'Symptom data was saved',
-  dataDeleted: 'Symptom data was deleted',
+  cancel: 'Cancelar',
+  save: 'Guardar',
+  dataSaved: 'Los datos del síntoma se guardaron',
+  dataDeleted: 'Los datos del síntoma se eliminaron',
   errorTitle: 'Error',
-  successTitle: 'Success',
-  warning: 'Warning',
-  incorrectPassword: 'Password incorrect',
-  incorrectPasswordMessage: 'That password is incorrect.',
-  tryAgain: 'Try again',
+  successTitle: 'Éxito',
+  warning: 'Advertencia',
+  incorrectPassword: 'Contraseña incorrecta',
+  incorrectPasswordMessage: 'Esa contraseña es incorrecta.',
+  tryAgain: 'Intentar de nuevo',
   ok: 'OK',
-  confirmToProceed: 'Confirm to proceed',
-  date: 'Date',
-  loading: 'Loading ...',
-  noDataWarning: "You haven't entered any data yet.",
-  noTemperatureWarning: "You haven't entered any temperature data yet.",
-  noDataButtonText: 'Start entering data now',
-  enter: 'Enter',
-  remove: 'Remove',
-  learnMore: 'Learn more',
+  confirmToProceed: 'Confirma para continuar',
+  date: 'Fecha',
+  loading: 'Cargando ...',
+  noDataWarning: 'Aún no has ingresado datos.',
+  noTemperatureWarning: 'Aún no has ingresado datos de temperatura.',
+  noDataButtonText: 'Empezar a ingresar datos',
+  enter: 'Ingresar',
+  remove: 'Quitar',
+  learnMore: 'Saber más',
 }
 
 export const headerTitles = {
-  Home: 'Home',
-  Calendar: 'Calendar',
-  Chart: 'Chart',
-  Stats: 'Statistics',
-  SettingsMenu: 'Settings',
+  Home: 'Inicio',
+  Calendar: 'Calendario',
+  Chart: 'Gráfica',
+  Stats: 'Estadísticas',
+  SettingsMenu: 'Ajustes',
   Reminders: settingsTitles.reminders.name,
   NfpSettings: settingsTitles.nfpSettings.name,
   DataManagement: settingsTitles.dataManagement.name,
   Password: settingsTitles.password.name,
-  About: 'About',
-  License: 'License',
-  PrivacyPolicy: 'Privacy Policy',
-  bleeding: 'Bleeding',
-  temperature: 'Temperature',
-  mucus: 'Cervical Mucus',
-  cervix: 'Cervix',
-  note: 'Note',
-  desire: 'Desire',
-  sex: 'Sex',
-  pain: 'Pain',
-  mood: 'Mood',
+  About: 'Acerca de',
+  License: 'Licencia',
+  PrivacyPolicy: 'Política de privacidad',
+  bleeding: 'Sangrado',
+  temperature: 'Temperatura',
+  mucus: 'Moco cervical',
+  cervix: 'Cuello uterino',
+  note: 'Nota',
+  desire: 'Deseo',
+  sex: 'Sexo',
+  pain: 'Dolor',
+  mood: 'Estado de ánimo',
 }
 
 export const stats = {
-  cycleLengthExplainer: 'Basic statistics about the length of your cycles.',
-  emptyStats: 'At least one completed cycle is needed to display stats.',
-  daysLabel: 'days',
-  basisOfStatsEnd: 'completed\ncycles',
-  averageLabel: 'Average cycle',
-  minLabel: `Shortest`,
-  maxLabel: `Longest`,
-  stdLabel: `Standard\ndeviation`,
+  cycleLengthExplainer: 'Estadísticas básicas sobre la duración de tus ciclos.',
+  emptyStats: 'Se necesita al menos un ciclo completo para mostrar estadísticas.',
+  daysLabel: 'días',
+  basisOfStatsEnd: 'ciclos\ncompletos',
+  averageLabel: 'Ciclo promedio',
+  minLabel: `Más corto`,
+  maxLabel: `Más largo`,
+  stdLabel: `Desviación\nestándar`,
 }
 
 export const bleedingPrediction = {
   predictionInFuture: (startDays, endDays) =>
-    `Your next period is likely to start in ${startDays} to ${endDays} days.`,
+    `Es probable que tu próximo periodo empiece en ${startDays} a ${endDays} días.`,
   predictionStartedXDaysLeft: (numberOfDays) =>
-    `Your period is likely to start today or within the next ${numberOfDays} days.`,
-  predictionStarted1DayLeft:
-    'Your period is likely to start today or tomorrow.',
-  predictionStartedNoDaysLeft: 'Your period is likely to start today.',
+    `Es probable que tu periodo empiece hoy o en los próximos ${numberOfDays} días.`,
+  predictionStarted1DayLeft: 'Es probable que tu periodo empiece hoy o mañana.',
+  predictionStartedNoDaysLeft: 'Es probable que tu periodo empiece hoy.',
   predictionInPast: (startDate, endDate) =>
-    `Based on your documented data, your period was likely to start between ${startDate} and ${endDate}.`,
+    `Según tus datos registrados, era probable que tu periodo empezara entre el ${startDate} y el ${endDate}.`,
 }
 
 export const passwordPrompt = {
-  title: 'Unlock app',
-  enterPassword: 'Enter password here',
+  title: 'Desbloquear app',
+  enterPassword: 'Escribe tu contraseña aquí',
   deleteDatabaseExplainer:
-    "If you've forgotten your password, unfortunately, there is nothing we can do to recover your data, because it is encrypted with the password only you know. You can, however, delete all your encrypted data and start fresh. Once all data has been erased, you can set a new password in the settings, if you like.",
-  forgotPassword: 'Forgot your password?',
-  deleteDatabaseTitle: 'Forgot your password?',
-  deleteData: 'Yes, delete all my data',
-  areYouSureTitle: 'Are you sure?',
+    'Si olvidaste tu contraseña, lamentablemente no podemos recuperar tus datos, porque están cifrados con una contraseña que solo tú conoces. Sin embargo, puedes borrar todos tus datos cifrados y empezar de nuevo. Una vez borrados, si quieres puedes definir una nueva contraseña en los ajustes.',
+  forgotPassword: '¿Olvidaste tu contraseña?',
+  deleteDatabaseTitle: '¿Olvidaste tu contraseña?',
+  deleteData: 'Sí, borrar todos mis datos',
+  areYouSureTitle: '¿Estás segura?',
   areYouSure:
-    'Are you absolutely sure you want to permanently delete all your data?',
-  reallyDeleteData: 'Yes, I am sure',
+    '¿Estás completamente segura de que quieres borrar permanentemente todos tus datos?',
+  reallyDeleteData: 'Sí, estoy segura',
 }
 
 export const fertilityStatus = {
-  fertile: 'fertile',
-  infertile: 'infertile',
-  fertileUntilEvening: 'Fertile phase ends in the evening',
+  fertile: 'fértil',
+  infertile: 'infértil',
+  fertileUntilEvening: 'La fase fértil termina por la tarde',
   unknown:
-    'We cannot show any cycle information because no period data has been added.',
+    'No podemos mostrar información del ciclo porque no se han agregado datos del periodo.',
   preOvuText:
-    "With NFP rules, you may assume 5 days of infertility at the beginning of your cycle, provided you don't observe any fertile cervical mucus or cervix values.",
+    'Con las reglas NFP, puedes asumir 5 días de infertilidad al inicio de tu ciclo, siempre que no observes moco cervical fértil ni valores fértiles del cuello uterino.',
   periOvuText:
-    'We were not able to detect both a temperature shift and cervical mucus or cervix shift.',
+    'No pudimos detectar a la vez un cambio de temperatura y un cambio en el moco cervical o en el cuello uterino.',
   periOvuUntilEveningText: (tempRule) => {
     return (
-      'We detected a temperature shift (' +
-      ['regular', '1st exception', '2nd exception'][tempRule] +
-      ' temperature rule), as well as a cervical mucus/cervix shift according to NFP rules. In the evening today you may assume infertility, but ' +
-      'always remember to double-check for yourself. Make sure the data makes sense to you.'
+      'Detectamos un cambio de temperatura (' +
+      ['regla de temperatura regular', 'regla de temperatura 1.ª excepción', 'regla de temperatura 2.ª excepción'][tempRule] +
+      '), así como un cambio en el moco cervical/cuello uterino según las reglas NFP. Hoy por la tarde puedes asumir infertilidad, pero ' +
+      'recuerda siempre verificarlo por ti misma. Asegúrate de que los datos tengan sentido para ti.'
     )
   },
   postOvuText: (tempRule) => {
     return (
-      'We detected a temperature shift (' +
-      ['regular', '1st exception', '2nd exception'][tempRule] +
-      ' temperature rule), as well as a cervical mucus/cervix shift according to NFP rules. You may assume infertility, but always remember to ' +
-      'double-check for yourself. Make sure the data makes sense to you.'
+      'Detectamos un cambio de temperatura (' +
+      ['regla de temperatura regular', 'regla de temperatura 1.ª excepción', 'regla de temperatura 2.ª excepción'][tempRule] +
+      '), así como un cambio en el moco cervical/cuello uterino según las reglas NFP. Puedes asumir infertilidad, pero recuerda siempre ' +
+      'verificarlo por ti misma. Asegúrate de que los datos tengan sentido para ti.'
     )
   },
 }
