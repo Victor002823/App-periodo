@@ -1,58 +1,42 @@
 {
-  "General": {
-    "cancel": "Cancelar",
-    "save": "Guardar",
-    "delete": "Eliminar",
-    "edit": "Editar",
-    "back": "Volver",
-    "done": "Hecho",
-    "ok": "Aceptar",
-    "confirm": "Confirmar",
-    "close": "Cerrar",
-    "today": "Hoy",
-    "yesterday": "Ayer",
-    "tomorrow": "Mañana"
+  "labels": {
+    "bleedingPrediction": {
+      "noPrediction": "Tan pronto como hayas registrado 3 ciclos menstruales, drip. hará predicciones para los siguientes."
+    },
+    "home": {
+      "cycleDay": " día de tu ciclo",
+      "cyclePhase": " fase del ciclo - ",
+      "addDataForToday": "agregar datos de hoy"
+    },
+    "shared": {
+      "cancel": "Cancelar",
+      "dateTimePickerTitle": "Elige una hora",
+      "ok": "Aceptar"
+    }
   },
-  "Navigation": {
-    "home": "Inicio",
-    "calendar": "Calendario",
-    "stats": "Estadísticas",
-    "charts": "Gráficas",
-    "settings": "Ajustes",
-    "track": "Registrar"
-  },
-  "Tracking": {
-    "bleed": "Sangrado / Periodo",
-    "flow": "Flujo menstrual",
-    "spotting": "Manchado",
-    "light": "Ligero",
-    "medium": "Moderado",
-    "heavy": "Abundante",
-    "mucus": "Mucosidad / Flujo cervical",
-    "cervix": "Cérvix",
-    "temperature": "Temperatura basal",
-    "symptoms": "Síntomas",
-    "mood": "Estado de ánimo",
-    "notes": "Notas",
-    "sexualActivity": "Actividad sexual",
-    "protected": "Protegido",
-    "unprotected": "Sin protección",
-    "pain": "Dolor",
-    "cramps": "Cramps / Cólicos"
-  },
-  "Settings": {
-    "title": "Ajustes de la aplicación",
-    "language": "Idioma",
-    "theme": "Tema",
-    "exportData": "Exportar datos",
-    "importData": "Importar datos",
-    "passwordProtection": "Protección con contraseña",
-    "notifications": "Notificaciones",
-    "about": "Acerca de Drip"
-  },
-  "Onboarding": {
-    "welcome": "Bienvenida a Drip",
-    "privacyNotice": "Tus datos se guardan únicamente en tu dispositivo de forma privada.",
-    "getStarted": "Comenzar"
+  "settings": {
+    "license": {
+      "title": "drip. una aplicación de código abierto para el seguimiento del ciclo",
+      "text": "Copyright (C) {{currentYear}} Heart of Code e.V.\n\nEste programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Consulta la Licencia Pública General GNU para obtener más detalles: https://www.gnu.org/licenses/gpl-3.0.html\n\nPuedes contactarnos en drip@mailbox.org."
+    },
+    "privacyPolicy": {
+      "title": "Política de Privacidad",
+      "intro": {
+        "title": "Introducción",
+        "text": "Esta Política de Privacidad establece cómo la aplicación para iOS 'drip.' utiliza y protege los datos personales que generas y almacenas dentro de la aplicación."
+      },
+      "dataUse": {
+        "title": "Uso de datos",
+        "text": "Drip. respeta y celebra tu privacidad. No hay recopilación de datos de uso ni información personal, ni anuncios, ni spyware. Drip. puede almacenar datos relacionados con la salud menstrual de forma local en tu dispositivo.\n\nEsto incluye:\n• ajustes\n• datos de seguimiento del ciclo menstrual\n\nLos datos se utilizan para mostrar estadísticas y aplicar reglas de conocimiento de la fertilidad. Ninguna otra aplicación puede acceder a estos datos.\n\nSi deseas eliminar todos los datos de tu aplicación, puedes hacerlo navegando a Ajustes, Datos y Eliminar datos de la aplicación. Esto también se puede hacer desinstalando la aplicación."
+      },
+      "permissions": {
+        "title": "Permisos",
+        "text": "Para usar recordatorios en drip. necesitas permitir las notificaciones push. Si no deseas utilizar esta función, simplemente no permitas las notificaciones para la aplicación."
+      },
+      "transparency": {
+        "title": "Transparencia",
+        "text": "Puedes leer el código fuente de drip. para asegurarte de que la información proporcionada sea correcta. El código fuente es como una receta: te dice qué cantidad y qué tipo de ingredientes necesitas y cómo los preparas para cocinar una deliciosa comida o programar una aplicación genial.\n\n¡Buen provecho!"
+      }
+    }
   }
 }
