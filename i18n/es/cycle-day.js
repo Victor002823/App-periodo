@@ -1,151 +1,159 @@
 export const mucusNFP = ['t', 'Ø', 'f', 'S', 'S+']
-export const intensity = ['low', 'medium', 'high']
+export const intensity = ['baja', 'media', 'alta']
 
 export const bleeding = {
-  labels: ['spotting', 'light', 'medium', 'heavy'],
+  labels: ['manchado', 'ligero', 'medio', 'abundante'],
   heaviness: {
-    header: "Heaviness",
-    explainer: "How heavy is the bleeding?",
+    header: 'Intensidad',
+    explainer: '¿Qué tan abundante es el sangrado?',
   },
   exclude: {
-    header: "Exclude",
-    explainer: "You can exclude this value if it's not menstrual bleeding"
-  }
+    header: 'Excluir',
+    explainer: 'Puedes excluir este valor si no es sangrado menstrual',
+  },
 }
 
 export const cervix = {
   subcategories: {
-    opening: 'opening',
-    firmness: 'firmness',
-    position: 'position'
+    opening: 'apertura',
+    firmness: 'firmeza',
+    position: 'posición',
   },
   opening: {
-    categories: ['closed', 'medium', 'open'],
-    explainer: 'Is your cervix open or closed?'
+    categories: ['cerrado', 'medio', 'abierto'],
+    explainer: '¿Tu cuello uterino está abierto o cerrado?',
   },
   firmness: {
-    categories: ['hard', 'soft'],
-    explainer: "When it's hard, it might feel like the tip of your nose"
+    categories: ['duro', 'blando'],
+    explainer: 'Cuando está duro, se siente como la punta de la nariz',
   },
   position: {
-    categories: ['low', 'medium', 'high'],
-    explainer: 'How high up in the vagina is the cervix?'
+    categories: ['bajo', 'medio', 'alto'],
+    explainer: '¿Qué tan arriba en la vagina está el cuello uterino?',
   },
-  excludeExplainer: "You can exclude this value if you don't want to use it for fertility detection.",
-  actionHint: 'Choose values for at least "Opening" and "Firmness" to save.'
+  excludeExplainer:
+    'Puedes excluir este valor si no quieres usarlo para la detección de fertilidad.',
+  actionHint: 'Elige valores al menos para "Apertura" y "Firmeza" para guardar.',
 }
 
 export const mucus = {
   subcategories: {
-    feeling: 'feeling',
-    texture: 'texture'
+    feeling: 'sensación',
+    texture: 'textura',
   },
   feeling: {
-    categories: ['dry', 'nothing', 'wet', 'slippery'],
-    explainer: 'What does your vaginal entrance feel like?'
+    categories: ['seca', 'nada', 'húmeda', 'resbalosa'],
+    explainer: '¿Cómo sientes la entrada de tu vagina?',
   },
   texture: {
-    categories: ['nothing', 'creamy', 'egg white'],
-    explainer: "Looking at and touching your cervical mucus, which describes it best?"
+    categories: ['nada', 'cremosa', 'clara de huevo'],
+    explainer:
+      'Al mirar y tocar tu moco cervical, ¿cuál lo describe mejor?',
   },
-  excludeExplainer: "You can exclude this value if you don't want to use it for fertility detection",
-  actionHint: 'Choose values for both "Feeling" and "Texture" to save.'
+  excludeExplainer:
+    'Puedes excluir este valor si no quieres usarlo para la detección de fertilidad',
+  actionHint: 'Elige valores para "Sensación" y "Textura" para guardar.',
 }
 
 export const desire = {
-  header: 'Intensity',
-  explainer: 'How would you rate your sexual desire?'
+  header: 'Intensidad',
+  explainer: '¿Cómo calificarías tu deseo sexual?',
 }
 
 export const sex = {
-  categories:{
-    solo: 'solo',
-    partner: 'partner',
+  categories: {
+    solo: 'en solitario',
+    partner: 'con pareja',
   },
-  header: "Activity",
-  explainer: 'Were you sexually active today?',
+  header: 'Actividad',
+  explainer: '¿Tuviste actividad sexual hoy?',
 }
 
 export const contraceptives = {
-  categories:{
-    condom: 'condom',
-    pill: 'pill',
-    iud: 'iud',
-    patch: 'patch',
-    ring: 'ring',
-    implant: 'implant',
-    diaphragm: 'diaphragm',
-    none: 'none',
-    other: 'other',
+  categories: {
+    condom: 'condón',
+    pill: 'píldora',
+    iud: 'DIU',
+    patch: 'parche',
+    ring: 'anillo',
+    implant: 'implante',
+    diaphragm: 'diafragma',
+    none: 'ninguno',
+    other: 'otro',
   },
-  header: "Contraceptives",
-  explainer: 'Did you use contraceptives?'
+  header: 'Anticonceptivos',
+  explainer: '¿Usaste anticonceptivos?',
 }
 
 export const pain = {
   categories: {
-    cramps: 'cramps',
-    ovulationPain: 'ovulation pain',
-    headache: 'headache',
-    backache: 'backache',
-    nausea: 'nausea',
-    tenderBreasts: 'tender breasts',
-    migraine: 'migraine',
-    other: 'other'
+    cramps: 'cólicos',
+    ovulationPain: 'dolor de ovulación',
+    headache: 'dolor de cabeza',
+    backache: 'dolor de espalda',
+    nausea: 'náuseas',
+    tenderBreasts: 'senos sensibles',
+    migraine: 'migraña',
+    other: 'otro',
   },
-  explainer: 'How did your body feel today?'
+  explainer: '¿Cómo se sintió tu cuerpo hoy?',
 }
 
 export const mood = {
   categories: {
-    happy: 'happy',
-    sad: 'sad',
-    stressed: 'stressed',
-    balanced: 'balanced',
-    fine: 'fine',
-    anxious: 'anxious',
-    energetic: 'energetic',
-    fatigue: 'fatigue',
-    angry: 'angry',
-    other: 'other'
+    happy: 'feliz',
+    sad: 'triste',
+    stressed: 'estresada',
+    balanced: 'equilibrada',
+    fine: 'bien',
+    anxious: 'ansiosa',
+    energetic: 'enérgica',
+    fatigue: 'fatiga',
+    angry: 'enojada',
+    other: 'otro',
   },
-  explainer: 'How did you feel today?'
+  explainer: '¿Cómo te sentiste hoy?',
 }
 
 export const temperature = {
-  // disabled temporarily, TODO https://gitlab.com/bloodyhealth/drip/-/issues/545 */}
-  // outOfRangeWarning: 'This temperature value is out of the current range for the temperature chart. You can change the range in the settings.',
-  outOfRangeWarning: 'This temperature value is too high or low to be shown on the temperature chart.',
-  outOfAbsoluteRangeWarning: 'This temperature value is too high or low to be shown on the temperature chart.',
-  saveAnyway: 'Save anyway',
+  // disabled temporarily, TODO https://gitlab.com/bloodyhealth/drip/-/issues/545
+  // outOfRangeWarning: 'Este valor de temperatura está fuera del rango actual de la gráfica de temperatura. Puedes cambiar el rango en los ajustes.',
+  outOfRangeWarning:
+    'Este valor de temperatura es demasiado alto o bajo para mostrarse en la gráfica de temperatura.',
+  outOfAbsoluteRangeWarning:
+    'Este valor de temperatura es demasiado alto o bajo para mostrarse en la gráfica de temperatura.',
+  saveAnyway: 'Guardar de todos modos',
   temperature: {
-    header: "Temperature",
-    explainer: 'Take your temperature right after waking up, before getting out of bed'
+    header: 'Temperatura',
+    explainer:
+      'Toma tu temperatura justo al despertar, antes de levantarte de la cama',
   },
-  time: "Time",
+  time: 'Hora',
   note: {
-    header: "Note",
-    explainer: 'Is there anything that could have influenced this value, such as bad sleep or alcohol consumption?'
+    header: 'Nota',
+    explainer:
+      '¿Hay algo que pudo haber influido en este valor, como dormir mal o consumir alcohol?',
   },
   exclude: {
-    header: "Exclude",
-    explainer: "You can exclude this value if you don't want to use it for fertility detection"
-  }
+    header: 'Excluir',
+    explainer:
+      'Puedes excluir este valor si no quieres usarlo para la detección de fertilidad',
+  },
 }
 
-export const noteExplainer = "Anything you want to add for the day?"
+export const noteExplainer = '¿Quieres agregar algo sobre el día?'
 
 export const general = {
-  cycleDayNumber: "Cycle day ",
-  today: "Today"
+  cycleDayNumber: 'Día del ciclo ',
+  today: 'Hoy',
 }
 
 export const sharedDialogs = {
-  cancel: 'Cancel',
-  areYouSureTitle: 'Are you sure?',
-  areYouSureToDelete: 'Are you sure you want to delete this entry?',
-  reallyDeleteData: 'Yes, I am sure',
-  save: 'Save',
-  delete: 'Delete',
-  disabledInfo: 'There is some data missing'
+  cancel: 'Cancelar',
+  areYouSureTitle: '¿Estás segura?',
+  areYouSureToDelete: '¿Estás segura de que quieres eliminar este registro?',
+  reallyDeleteData: 'Sí, estoy segura',
+  save: 'Guardar',
+  delete: 'Eliminar',
+  disabledInfo: 'Faltan algunos datos',
 }
