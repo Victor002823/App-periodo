@@ -27,6 +27,9 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
+      - name: Parchear nodejs-mobile
+        run: bash scripts/fix-gradle.sh
+
       - name: Aceptar licencias SDK
         run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null || true
 
