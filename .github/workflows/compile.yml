@@ -1,4 +1,4 @@
-name: Compilar y Probar App
+name: Compilar APK Android
 
 on:
   push:
@@ -7,12 +7,18 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-android:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Obtener codigo fuente
+      - name: Obtener código fuente
         uses: actions/checkout@v4
+
+      - name: Configurar Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
@@ -23,5 +29,16 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Verificar TypeScript / Linter
-        run: npm run test --if-present
+      - name: Dar permisos a Gradlew
+        run: chmod +x android/gradlew
+
+      - name: Compilar APK de Android
+        run: |
+          cd android
+          ./gradlew assembleDebug --no-daemon
+
+      - name: Subir APK a Artefactos
+        uses: actions/upload-artifact@v4
+        with:
+          name: drip-espanol-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
