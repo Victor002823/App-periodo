@@ -6,7 +6,7 @@ import AppText from '../common/app-text'
 import CloseIcon from '../common/close-icon'
 
 import { Containers, Spacing } from '../../styles'
-import { chart } from '../../i18n/en/labels'
+import { chart } from '../../i18n/es/labels'
 
 const image = require('../../assets/swipe.png')
 

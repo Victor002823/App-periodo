@@ -9,7 +9,7 @@ import Table from './common/table'
 
 import cycleModule from '../lib/cycle'
 import {getCycleLengthStats as getCycleInfo} from '../lib/cycle-length'
-import {stats as labels} from '../i18n/en/labels'
+import {stats as labels} from '../i18n/es/labels'
 
 import { Sizes, Spacing, Typography } from '../styles'
 

@@ -5,7 +5,7 @@ import AppText from './app-text'
 
 import { Containers } from '../../styles'
 
-import { shared } from '../../i18n/en/labels'
+import { shared } from '../../i18n/es/labels'
 
 const AppLoadingView = () => {
   return (

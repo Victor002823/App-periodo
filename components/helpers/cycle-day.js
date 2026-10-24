@@ -7,7 +7,7 @@ import {
 } from '../../db'
 import { scaleObservable } from '../../local-storage'
 
-import * as labels from '../../i18n/en/cycle-day'
+import * as labels from '../../i18n/es/cycle-day'
 import { getLabelsList } from './labels'
 import { TEMP_MAX, TEMP_MIN } from '../../config'
 

@@ -5,7 +5,7 @@ import { formatDateForShortText } from './format-date'
 import {
   home as labels,
   bleedingPrediction as predictLabels,
-} from '../../i18n/en/labels'
+} from '../../i18n/es/labels'
 
 function getTimes(prediction) {
   const todayDate = LocalDate.now()

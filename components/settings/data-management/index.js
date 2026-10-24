@@ -10,7 +10,7 @@ import { openImportDialog, getFileContent, importData } from './import-dialog'
 import openShareDialogAndExport from './export-dialog'
 import DeleteData from './delete-data'
 
-import labels from '../../../i18n/en/settings'
+import labels from '../../../i18n/es/settings'
 import { ACTION_DELETE, ACTION_EXPORT, ACTION_IMPORT } from '../../../config'
 
 export default class DataManagement extends Component {

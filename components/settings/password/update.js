@@ -7,7 +7,7 @@ import EnterNewPassword from './enter-new-password'
 import showBackUpReminder from './show-backup-reminder'
 import ConfirmWithPassword from '../common/confirm-with-password'
 
-import settings from '../../../i18n/en/settings'
+import settings from '../../../i18n/es/settings'
 
 export default class ChangePassword extends Component {
   static propTypes = {

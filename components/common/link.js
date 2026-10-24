@@ -5,7 +5,7 @@ import { StyleSheet } from 'react-native'
 
 import { Colors, Typography } from '../../styles'
 
-import links from '../../i18n/en/links'
+import links from '../../i18n/es/links'
 
 const Link = ({ children, style }) => {
   return (

@@ -1,7 +1,7 @@
 import { LocalDate } from 'js-joda'
 import moment from 'moment'
 
-import { general as labels } from '../../i18n/en/cycle-day'
+import { general as labels } from '../../i18n/es/cycle-day'
 
 export default function (date) {
   const today = LocalDate.now()

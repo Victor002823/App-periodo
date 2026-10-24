@@ -7,8 +7,8 @@ import Segment from '../common/segment'
 import Button from '../common/button'
 import ButtonRow from '../common/button-row'
 
-import labels from '../../i18n/en/settings'
-import links from '../../i18n/en/links'
+import labels from '../../i18n/es/settings'
+import links from '../../i18n/es/links'
 
 const AboutSection = () => {
   return (

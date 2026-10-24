@@ -10,7 +10,7 @@ import Segment from '../../common/segment'
 
 import { useCervixObservable, saveUseCervix } from '../../../local-storage'
 import { Colors, Spacing, Typography } from '../../../styles'
-import labels from '../../../i18n/en/settings'
+import labels from '../../../i18n/es/settings'
 
 export default class Settings extends Component {
   constructor(props) {

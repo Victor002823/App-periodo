@@ -2,8 +2,8 @@ import { Alert } from 'react-native'
 import DocumentPicker from 'react-native-document-picker'
 import rnfs from 'react-native-fs'
 import importCsv from '../../../lib/import-export/import-from-csv'
-import { shared as sharedLabels } from '../../../i18n/en/labels'
-import labels from '../../../i18n/en/settings'
+import { shared as sharedLabels } from '../../../i18n/es/labels'
+import labels from '../../../i18n/es/settings'
 import alertError from '../common/alert-error'
 
 export function openImportDialog(onImportData) {

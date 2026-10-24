@@ -9,7 +9,7 @@ import ChangePassword from './update'
 import DeletePassword from './delete'
 
 import { hasEncryptionObservable } from '../../../local-storage'
-import labels from '../../../i18n/en/settings'
+import labels from '../../../i18n/es/settings'
 
 export default class PasswordSetting extends Component {
   constructor(props) {

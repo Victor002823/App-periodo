@@ -5,7 +5,7 @@ import Button from '../../common/button'
 import ConfirmWithPassword from '../common/confirm-with-password'
 
 import { changeEncryptionAndRestartApp } from '../../../db'
-import labels from '../../../i18n/en/settings'
+import labels from '../../../i18n/es/settings'
 
 export default class DeletePassword extends Component {
   static propTypes = {

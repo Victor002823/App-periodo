@@ -12,7 +12,7 @@ import CloseIcon from '../common/close-icon'
 import MenuItem from './menu-item'
 
 import { Colors, Sizes } from '../../styles'
-import settingsLabels from '../../i18n/en/settings'
+import settingsLabels from '../../i18n/es/settings'
 import { HIT_SLOP } from '../../config'
 
 const { menuItems } = settingsLabels

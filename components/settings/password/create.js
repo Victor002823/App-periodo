@@ -5,7 +5,7 @@ import Button from '../../common/button'
 import EnterNewPassword from './enter-new-password'
 import showBackUpReminder from './show-backup-reminder'
 
-import settings from '../../../i18n/en/settings'
+import settings from '../../../i18n/es/settings'
 
 export default class CreatePassword extends Component {
   constructor() {

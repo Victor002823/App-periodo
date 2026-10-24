@@ -34,7 +34,7 @@ import {
   CHART_XAXIS_HEIGHT_RATIO,
   SYMPTOMS
 } from '../../config'
-import { shared } from '../../i18n/en/labels'
+import { shared } from '../../i18n/es/labels'
 import { Colors, Spacing } from '../../styles'
 
 class CycleChart extends Component {

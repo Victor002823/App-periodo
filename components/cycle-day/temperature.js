@@ -18,7 +18,7 @@ import {
   formatTemperature,
 } from '../helpers/cycle-day'
 
-import { temperature as labels } from '../../i18n/en/cycle-day'
+import { temperature as labels } from '../../i18n/es/cycle-day'
 
 import { Colors, Containers, Sizes, Spacing } from '../../styles'
 

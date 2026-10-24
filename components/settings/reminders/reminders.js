@@ -7,7 +7,7 @@ import TemperatureReminder from './temperature-reminder'
 
 import { periodReminderObservable, savePeriodReminder } from '../../../local-storage'
 
-import labels from '../../../i18n/en/settings'
+import labels from '../../../i18n/es/settings'
 
 export default class Reminders extends Component {
   constructor(props) {

@@ -3,7 +3,7 @@ import React from 'react'
 import AppPage from '../common/app-page'
 import MenuItem from './menu-item'
 
-import settingsLabels from '../../i18n/en/settings'
+import settingsLabels from '../../i18n/es/settings'
 
 const { menuItems } = settingsLabels
 const menu = [

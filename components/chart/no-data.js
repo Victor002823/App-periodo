@@ -9,7 +9,7 @@ import { connect } from 'react-redux'
 import { navigate } from '../../slices/navigation'
 
 import { Containers } from '../../styles'
-import { shared } from '../../i18n/en/labels'
+import { shared } from '../../i18n/es/labels'
 
 const NoData = ({ navigate }) => {
   return (

@@ -1,6 +1,6 @@
 import settingsViews from './settings'
 
-import settingsLabels from '../i18n/en/settings'
+import settingsLabels from '../i18n/es/settings'
 const labels = settingsLabels.menuItems
 
 export const isSettingsView = (page) =>

@@ -6,7 +6,7 @@ import AppText from '../common/app-text'
 
 import { Typography } from '../../styles'
 import { CHART_YAXIS_WIDTH } from '../../config'
-import { shared as labels } from '../../i18n/en/labels'
+import { shared as labels } from '../../i18n/es/labels'
 
 const ChartLegend = ({ height }) => {
   return (

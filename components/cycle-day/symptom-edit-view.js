@@ -18,8 +18,8 @@ import { getDate } from '../../slices/date'
 import { blank, save, shouldShow, symtomPage } from '../helpers/cycle-day'
 import { showToast } from '../helpers/general'
 
-import { shared as sharedLabels } from '../../i18n/en/labels'
-import info from '../../i18n/en/symptom-info'
+import { shared as sharedLabels } from '../../i18n/es/labels'
+import info from '../../i18n/es/symptom-info'
 import { Colors, Containers, Sizes, Spacing } from '../../styles'
 
 class SymptomEditView extends Component {

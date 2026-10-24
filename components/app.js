@@ -12,7 +12,7 @@ import Menu from './menu'
 import { viewsList } from './views'
 import { isSettingsView } from './pages'
 
-import { headerTitles } from '../i18n/en/labels'
+import { headerTitles } from '../i18n/es/labels'
 import setupNotifications from '../lib/notifications'
 import { getCycleDay, closeDb } from '../db'
 

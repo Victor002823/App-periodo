@@ -11,8 +11,8 @@ import alertError from '../common/alert-error'
 import { clearDb, isDbEmpty } from '../../../db'
 import { showToast } from '../../helpers/general'
 import { hasEncryptionObservable } from '../../../local-storage'
-import settings from '../../../i18n/en/settings'
-import { shared as sharedLabels } from '../../../i18n/en/labels'
+import settings from '../../../i18n/es/settings'
+import { shared as sharedLabels } from '../../../i18n/es/labels'
 import { EXPORT_FILE_NAME } from './constants'
 
 const exportedFilePath = `${RNFS.DocumentDirectoryPath}/${EXPORT_FILE_NAME}`

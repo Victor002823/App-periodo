@@ -11,7 +11,7 @@ import {
 } from '../../../local-storage'
 import padWithZeros from '../../helpers/pad-time-with-zeros'
 
-import labels from '../../../i18n/en/settings'
+import labels from '../../../i18n/es/settings'
 import { withTranslation } from 'react-i18next'
 
 class TemperatureReminder extends Component {

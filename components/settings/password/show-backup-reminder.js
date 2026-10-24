@@ -1,6 +1,6 @@
 import { Alert, Platform } from 'react-native'
-import { shared } from '../../../i18n/en/labels'
-import labels from '../../../i18n/en/settings'
+import { shared } from '../../../i18n/es/labels'
+import labels from '../../../i18n/es/settings'
 
 export default function showBackUpReminder(okHandler, cancelHandler, isDelete) {
   const { title, message } = isDelete

@@ -8,7 +8,7 @@ import Button from '../../common/button'
 
 import { requestHash, changeEncryptionAndRestartApp } from '../../../db'
 import { Colors, Spacing } from '../../../styles'
-import settings from '../../../i18n/en/settings'
+import settings from '../../../i18n/es/settings'
 
 const LISTENER_TYPE = 'create-or-change-pw'
 
