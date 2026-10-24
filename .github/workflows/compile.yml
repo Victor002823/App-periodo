@@ -43,7 +43,7 @@ jobs:
         run: |
           mkdir -p android/app/src/main/assets android/app/src/main/res
           E=index.js; [ -f index.android.js ] && E=index.android.js
-          npx react-native bundle --platform android --dev false --entry-file $E --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+          NODE_OPTIONS=--openssl-legacy-provider npx react-native bundle --platform android --dev false --entry-file $E --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 
       - name: Compilar APK
         working-directory: android
