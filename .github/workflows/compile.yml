@@ -39,6 +39,12 @@ jobs:
           echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/21.4.7075529" >> $GITHUB_ENV
           echo "ndk.dir=$ANDROID_HOME/ndk/21.4.7075529" >> android/local.properties
 
+      - name: Generar bundle JS
+        run: |
+          mkdir -p android/app/src/main/assets android/app/src/main/res
+          E=index.js; [ -f index.android.js ] && E=index.android.js
+          npx react-native bundle --platform android --dev false --entry-file $E --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
       - name: Compilar APK
         working-directory: android
         run: |
