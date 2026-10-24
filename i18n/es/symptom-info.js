@@ -1,48 +1,48 @@
 import links from './links'
 
 export const generalInfo = {
-  chartNfp: `On the chart, you can track fertility signs. When both a valid temperature shift and a cervical mucus or cervix shift have been detected, an orange line will be displayed on the chart. This indicates the end of the peri-ovulatory and the beginning of the post-ovulatory phase.`,
-  curiousNfp: `If you are curious to learn more about the sympto-thermal method that is used for fertility tracking within the app, you can visit ${links.wiki.url}.`,
-  cycleRelation: `It may be influenced by or have an impact on your menstrual cycles and its hormonal changes.`,
-  excludeExplainer: `You can exclude these values, so they won't be taken into account for any fertility calculation.`,
-  nfpTfyReminder: `When - on a daily/regular basis - you track:
-  1. your basal body temperature,
-  2. your cervical mucus OR your cervix,
-  3. and menstrual bleeding
-the app helps you identify in which phase of the menstrual cycle you are.
+  chartNfp: `En la gráfica puedes seguir los signos de fertilidad. Cuando se detectan a la vez un cambio de temperatura válido y un cambio en el moco cervical o en el cuello uterino, se muestra una línea naranja en la gráfica. Indica el fin de la fase periovulatoria y el inicio de la fase postovulatoria.`,
+  curiousNfp: `Si tienes curiosidad por saber más sobre el método sintotérmico que se usa para el seguimiento de la fertilidad en la app, visita ${links.wiki.url}.`,
+  cycleRelation: `Puede estar influido por tus ciclos menstruales y sus cambios hormonales, o influir en ellos.`,
+  excludeExplainer: `Puedes excluir estos valores para que no se tengan en cuenta en ningún cálculo de fertilidad.`,
+  nfpTfyReminder: `Cuando - de forma diaria/regular - registras:
+  1. tu temperatura corporal basal,
+  2. tu moco cervical O tu cuello uterino,
+  3. y el sangrado menstrual
+la app te ayuda a identificar en qué fase del ciclo menstrual estás.
 
-drip. makes period predictions for you and helps you apply NFP fertility awareness rules. But please remember that this app is made by humans, and humans make mistakes. Always think for yourself: "Does this make sense?" Remember, you don't need an app to understand your cycle! However, drip. wants to support you and make period tracking easier, more transparent and secure.
+drip. hace predicciones de periodo por ti y te ayuda a aplicar las reglas NFP de conciencia de fertilidad. Pero recuerda que esta app la hacen personas, y las personas se equivocan. Piensa siempre por ti misma: "¿Esto tiene sentido?" Recuerda: ¡no necesitas una app para entender tu ciclo! Sin embargo, drip. quiere apoyarte y hacer el registro del periodo más fácil, transparente y seguro.
 
-Please find more info on the sympto-thermal method in ${links.wiki.url}.`,
-  noNfpSymptom: `The app allows you to track this symptom for your information, it is not taken into account for any calculation. On the chart you can check how often you track this symptom.`,
+Encuentra más información sobre el método sintotérmico en ${links.wiki.url}.`,
+  noNfpSymptom: `La app te permite registrar este síntoma solo como información; no se tiene en cuenta en ningún cálculo. En la gráfica puedes ver con qué frecuencia lo registras.`,
 }
 
 export default {
   bleeding: {
-    title: `Tracking menstrual bleeding`,
-    text: `Tracking menstrual bleeding allows you to know the beginning and the end of a menstrual cycle.
+    title: `Registro del sangrado menstrual`,
+    text: `Registrar el sangrado menstrual te permite conocer el inicio y el fin de un ciclo menstrual.
 
-After tracking at least 3 menstrual cycles, drip. will give you an overview of
-· how long your cycles last on average (in "stats"),
-· whether the length of your cycles varied significantly (in "stats" and in bleeding predictions)
-· and predict your next 3 cycles with a range of 3 or 5 days (on home screen and "calendar").
+Después de registrar al menos 3 ciclos menstruales, drip. te dará un resumen de
+· cuánto duran tus ciclos en promedio (en "estadísticas"),
+· si la duración de tus ciclos varió de forma significativa (en "estadísticas" y en las predicciones de sangrado)
+· y predecirá tus próximos 3 ciclos con un rango de 3 o 5 días (en la pantalla de inicio y en el "calendario").
 
-The app allows you to track different intensities of bleeding. On the chart and on the calendar, bleeding values are colored in different shades of red. The darker, the more intense your bleeding. Every bleeding value that is not excluded is taken into account for fertility calculation and prediction for the start of next cycles.
+La app te permite registrar distintas intensidades de sangrado. En la gráfica y en el calendario, los valores de sangrado se colorean en distintos tonos de rojo. Mientras más oscuro, más intenso el sangrado. Todo valor de sangrado que no esté excluido se tiene en cuenta para el cálculo de fertilidad y para la predicción del inicio de los próximos ciclos.
 
-Excluding bleeding values is for tracking bleeding when it's not marking the start of a new cycle or the continuation of menstrual bleeding the day(s) before, e.g. bleeding caused by ovulation or a miscarriage.
+Excluir valores de sangrado sirve para registrar sangrado que no marca el inicio de un nuevo ciclo ni la continuación del sangrado menstrual de los días anteriores, por ejemplo el sangrado causado por la ovulación o por un aborto espontáneo.
 
 ${generalInfo.nfpTfyReminder}`,
   },
   cervix: {
-    title: `Tracking your cervix`,
-    text: `The cervix is located inside of the body at the end of the vaginal canal, between the vagina and the uterus.
+    title: `Registro del cuello uterino`,
+    text: `El cuello uterino está dentro del cuerpo, al final del canal vaginal, entre la vagina y el útero.
 
-Tracking how open or closed and how firm or soft the cervix feels can help determine in which phase of the menstrual cycle you are.
+Registrar qué tan abierto o cerrado y qué tan firme o blando se siente el cuello uterino puede ayudar a determinar en qué fase del ciclo menstrual estás.
 
-By default, the secondary symptom the app uses for NFP evaluation is cervical mucus, but you can change it to cervix in "Settings" -> "NFP Settings".
+Por defecto, el síntoma secundario que la app usa para la evaluación NFP es el moco cervical, pero puedes cambiarlo al cuello uterino en "Ajustes" -> "Ajustes NFP".
 
-· How to identify a fertile cervix?
-A fertile cervix is open and feels soft like your earlobes. In contrast, an infertile cervix feels closed and hard, like the tip of your nose. If the cervix feels anything other than closed and hard, drip. takes it as a sign of fertility. On the chart, a fertile cervix is colored in dark yellow, and infertile cervix is colored in light yellow.
+· ¿Cómo identificar un cuello uterino fértil?
+Un cuello uterino fértil está abierto y se siente blando, como el lóbulo de la oreja. En cambio, un cuello uterino infértil se siente cerrado y duro, como la punta de la nariz. Si el cuello uterino se siente de cualquier otra forma que no sea cerrado y duro, drip. lo toma como señal de fertilidad. En la gráfica, el cuello uterino fértil se colorea en amarillo oscuro y el infértil en amarillo claro.
 
 ${generalInfo.chartNfp}
 
@@ -51,8 +51,8 @@ ${generalInfo.excludeExplainer}
 ${generalInfo.nfpTfyReminder}`,
   },
   desire: {
-    title: 'Tracking sexual desire',
-    text: `The app allows you to track sexual desire independently from sexual activity.
+    title: 'Registro del deseo sexual',
+    text: `La app te permite registrar el deseo sexual de forma independiente de la actividad sexual.
 
 ${generalInfo.cycleRelation}
 
@@ -61,8 +61,8 @@ ${generalInfo.noNfpSymptom}
 ${generalInfo.curiousNfp}`,
   },
   mood: {
-    title: 'Tracking mood',
-    text: `The app allows you to track your mood.
+    title: 'Registro del estado de ánimo',
+    text: `La app te permite registrar tu estado de ánimo.
 
 ${generalInfo.cycleRelation}
 
@@ -71,23 +71,22 @@ ${generalInfo.noNfpSymptom}
 ${generalInfo.curiousNfp}`,
   },
   mucus: {
-    title: 'Tracking cervical mucus',
-    text: `Cervical mucus can help determine in which phase of the menstrual cycle you are.
+    title: 'Registro del moco cervical',
+    text: `El moco cervical puede ayudar a determinar en qué fase del ciclo menstrual estás.
 
-By default the secondary symptom the app uses for NFP evaluation is cervical mucus.
+Por defecto, el síntoma secundario que la app usa para la evaluación NFP es el moco cervical.
 
-· How to identify fertile cervical mucus?
-Tracking the feeling and the texture of your cervical mucus on a daily basis helps you identify changes of the quality of the cervical mucus. The values you enter for both feeling and texture of your cervical mucus are combined by drip. into one of five NFP-conforming values.
-From lowest to best quality:
-· t = (dry feeling + no texture),
-· ∅ = (no feeling + no texture),
-· f = (wet feeling + no texture),
-· S = (no OR wet feeling + creamy texture),
-· S+ = (any feeling + egg white texture) OR (slippery feeling + any texture).
+· ¿Cómo identificar el moco cervical fértil?
+Registrar a diario la sensación y la textura de tu moco cervical te ayuda a identificar cambios en su calidad. Los valores que ingresas para la sensación y la textura se combinan en drip. en uno de cinco valores conformes a NFP. De menor a mejor calidad:
+· t = (sensación seca + sin textura),
+· ∅ = (sin sensación + sin textura),
+· f = (sensación húmeda + sin textura),
+· S = (sin sensación O sensación húmeda + textura cremosa),
+· S+ = (cualquier sensación + textura de clara de huevo) O (sensación resbalosa + cualquier textura).
 
-On the chart, cervical mucus is colored in blue: the darker the shade of blue the better the quality of your cervical mucus.
+En la gráfica, el moco cervical se colorea en azul: mientras más oscuro el azul, mejor la calidad de tu moco cervical.
 
-Please note that drip. does not yet support "parenthesis values": According to NFP rules, you can qualify a cervical mucus value by putting parentheses around it, to indicate that it doesn't fully meet the descriptors of one of the five categories, and instead is in between. This functionality will be supported in the future.
+Ten en cuenta que drip. aún no admite los "valores entre paréntesis": según las reglas NFP, puedes calificar un valor de moco cervical poniéndolo entre paréntesis para indicar que no cumple del todo los descriptores de una de las cinco categorías y está en un punto intermedio. Esta función se admitirá en el futuro.
 
 ${generalInfo.chartNfp}
 
@@ -96,16 +95,16 @@ ${generalInfo.excludeExplainer}
 ${generalInfo.nfpTfyReminder}`,
   },
   note: {
-    title: 'Notes',
-    text: `Note allows you to track any extra information you want to save. It is the only category that can store information for a date in the future. This can be helpful for reminding you of an appointment.
+    title: 'Notas',
+    text: `La nota te permite registrar cualquier información extra que quieras guardar. Es la única categoría que puede guardar información para una fecha futura. Esto puede servir para recordarte una cita.
 
 ${generalInfo.noNfpSymptom}
 
 ${generalInfo.curiousNfp}`,
   },
   pain: {
-    title: 'Tracking pain',
-    text: `The app allows you to keep track of different kinds of pain you experience.
+    title: 'Registro del dolor',
+    text: `La app te permite registrar los distintos tipos de dolor que experimentas.
 
 ${generalInfo.cycleRelation}
 
@@ -114,27 +113,27 @@ ${generalInfo.noNfpSymptom}
 ${generalInfo.curiousNfp}`,
   },
   sex: {
-    title: 'Tracking sex and contraceptives',
-    text: `The app allows you to track sex independently from sexual desire. You can differentiate between masturbation and sex with a partner/partners. Here you can also track your contraceptive method(s). Only sexual activity will be shown in the "chart" section, lighter purple indicating solo sex and darker purple partner sex. Did you know that having an orgasm can help release cramps?
+    title: 'Registro de sexo y anticonceptivos',
+    text: `La app te permite registrar el sexo de forma independiente del deseo sexual. Puedes diferenciar entre masturbación y sexo con pareja/parejas. Aquí también puedes registrar tu(s) método(s) anticonceptivo(s). Solo la actividad sexual se muestra en la sección "gráfica": el morado más claro indica sexo en solitario y el más oscuro, sexo con pareja. ¿Sabías que tener un orgasmo puede ayudar a aliviar los cólicos?
 
 ${generalInfo.noNfpSymptom}
 
 ${generalInfo.curiousNfp}`,
   },
   temperature: {
-    title: 'Tracking body basal temperature',
-    text: `One of the body signs you need to track for knowing your fertility status is your body basal temperature. The body temperature changes over the course of a menstrual cycle, it rises after ovulation.
+    title: 'Registro de la temperatura corporal basal',
+    text: `Uno de los signos corporales que necesitas registrar para conocer tu estado de fertilidad es la temperatura corporal basal. La temperatura corporal cambia a lo largo del ciclo menstrual y sube después de la ovulación.
 
-By default the secondary symptom is cervical mucus, but you can change it to cervix in "Settings" -> "NFP Settings".
+Por defecto, el síntoma secundario es el moco cervical, pero puedes cambiarlo al cuello uterino en "Ajustes" -> "Ajustes NFP".
 
-· What is body basal temperature?
-It's your temperature after lying still for at least 6 hours. For many, this is when they are waking up in the morning after sleeping at least 6 hours and before getting up.
+· ¿Qué es la temperatura corporal basal?
+Es tu temperatura después de estar en reposo al menos 6 horas. Para muchas personas es al despertar por la mañana, tras dormir al menos 6 horas y antes de levantarse.
 
-· Which thermometer to use?
-The thermometer must indicate 2 decimal places.
+· ¿Qué termómetro usar?
+El termómetro debe indicar 2 decimales.
 
-· How to measure?
-You can measure rectally, vaginally or orally. If you chose rectal or vaginal measurement, you need to measure for at least 3 minutes. If you chose oral measurement, you should measure for at least 5 minutes. Pick one way and stick to it.
+· ¿Cómo medir?
+Puedes medir por vía rectal, vaginal u oral. Si eliges la medición rectal o vaginal, debes medir al menos 3 minutos. Si eliges la medición oral, debes medir al menos 5 minutos. Elige una forma y mantenla.
 
 ${generalInfo.chartNfp}
 
