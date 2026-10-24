@@ -33,6 +33,12 @@ jobs:
       - name: Aceptar licencias SDK
         run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null || true
 
+      - name: Instalar NDK 21
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "ndk;21.4.7075529" "cmake;3.10.2.4988404" > /dev/null
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/21.4.7075529" >> $GITHUB_ENV
+          echo "ndk.dir=$ANDROID_HOME/ndk/21.4.7075529" >> android/local.properties
+
       - name: Compilar APK
         working-directory: android
         run: |
